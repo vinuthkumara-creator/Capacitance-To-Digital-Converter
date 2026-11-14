@@ -12,23 +12,19 @@ A fully analog, reconfigurable circuit for measuring capacitance in the **nanofa
 where `Cs` is a known reference capacitor
  
 ## Block Diagram
- 
-```
-Reference/Bias -> Signal Generation -> Conditioning/Filtering -> Buffer -> Rectifier/Detector -> Output
-   (TL081)           (TL071)               (TL071, RC)          (TL071)      (D1, D2, TL071)      (DC)
-```
- 
-> Replace with your own diagram image: `![Block diagram](images/block_diagram.png)`
+
+ <img width="1078" height="350" alt="image" src="https://github.com/user-attachments/assets/1aa4bcfc-276d-458d-9820-a433542cc4fa" />
+
  
 ## Circuit Description
  
 | Stage | Op-amp | Function |
 |-------|--------|----------|
 | Reference / bias | TL081 | Resistive divider (R2 = 10 kΩ, R3 = 4.7 kΩ) sets the reference level |
-| Signal generation | LM741 (U1) | Op-amp with R1 = 10 kΩ and C1 = 0.1 µF generates the excitation signal |
-| Conditioning | LM741 (U2) | RC network (C2 = 50 nF, C3 = 47 nF, R4 = 100 kΩ) shapes the signal |
-| Coupling / buffer | LM741 (U4) | C4 = 10 µF and R5 = 1 kΩ block DC and feed the next stage |
-| Rectifier / detector | D1, D2, LM741 (U5) | Diodes with C5 = 10 µF and R6 = 100 kΩ convert the signal to a DC level proportional to capacitance |
+| Signal generation | TL071 (U1) | Op-amp with R1 = 10 kΩ and C1 = 0.1 µF generates the excitation signal |
+| Conditioning | TL071(U2) | RC network (C2 = 50 nF, C3 = 47 nF, R4 = 100 kΩ) shapes the signal |
+| Coupling / buffer | TL071 (U4) | C4 = 10 µF and R5 = 1 kΩ block DC and feed the next stage |
+| Rectifier / detector | D1, D2, TL071 (U5) | Diodes with C5 = 10 µF and R6 = 100 kΩ convert the signal to a DC level proportional to capacitance |
  
  
 ## Repository Structure
@@ -53,3 +49,5 @@ N. P. P. and S. Vijayakumar, "A Novel Capacitance-to-Time Converter for Differen
 keywords: {Capacitance;Sensors;Capacitors;Capacitance measurement;Capacitive sensors;Prototypes;Manufacturing;Sensor systems;automatic offset-mismatch nullification (AOFN);capacitance-to-time converter (CTC);differential-type capacitive sensor (DCS)},
 
 <img width="1062" height="832" alt="image" src="https://github.com/user-attachments/assets/ed8873a8-3ee3-4e37-9a6a-a259f5ac226b" />
+
+How the methodology explained in the documentation differs from my own approach is that the output of sensor device is a voltage, not a frequency as such. Without using the capacitance to time conversion principle which accommodates the slope of the triangular signal, I let the measuring capacitor to charge for a certain time, and transfer that through the reference capacitor which would consequently produce a voltage output, proportional to the slope of the triangle.
