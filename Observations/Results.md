@@ -4,6 +4,9 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 
 ## Test Setup
 
+<img width="967" height="733" alt="image" src="https://github.com/user-attachments/assets/08e41b6b-c2e9-4439-ac6a-404f4252e496" />
+
+
 - **Circuit:** Reconfigurable capacitance measurement circuit (see main `README.md`)
 - **Capacitors under test:** 3 pF, 5 pF, 10 pF
 - **Supply:** ±5 V
@@ -46,9 +49,4 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 
 <img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/24ae4fa2-10dc-4fd9-8704-bc81983b9020" />
 
-
-images/
-├── scope_3pF.png
-├── scope_5pF.png
-└── scope_10pF.png
-```
+Approximately a linear response can be observed. The same results can be observed even for nF or uF range, the requirement is that we have to reconfigure a suitable value for the reference capacitor. 
