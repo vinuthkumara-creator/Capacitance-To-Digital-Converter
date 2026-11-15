@@ -1,0 +1,58 @@
+# Experimental Results: Pico-Range Capacitance Measurements
+
+This section shows oscilloscope captures of the circuit measuring known capacitors in the **pF range**. Each capture shows the circuit output for a different capacitance under test (Cx).
+
+## Test Setup
+
+- **Circuit:** Reconfigurable capacitance measurement circuit (see main `README.md`)
+- **Capacitors under test:** 3 pF, 5 pF, 10 pF
+- **Supply:** ±5 V
+- **Reference capacitor (Cref):** 10 pF
+- **Instrument:** _TODO: oscilloscope model_
+- **Probe settings:** _TODO: e.g. 1x / 10x, time/div, volts/div_
+
+## Measurements
+
+### 3 pF
+
+- **Capacitance under test:** 3 pF
+- **Measured output:** 
+
+
+### 5 pF
+
+- **Capacitance under test:** 5 pF
+- **Measured output:** _TODO: V_
+
+![5 pF oscilloscope capture](images/scope_5pF.png)
+
+### 10 pF
+
+- **Capacitance under test:** 10 pF
+- **Measured output:** _TODO: V_
+
+![10 pF oscilloscope capture](images/scope_10pF.png)
+
+## Summary
+
+| Capacitance (pF) | Measured output (V) | Notes |
+|------------------|---------------------|-------|
+| 3 | _TODO_ | |
+| 5 | _TODO_ | |
+| 10 | _TODO_ | |
+
+## Observations
+
+- The output level increases with the capacitance under test.
+- _TODO: comment on linearity, noise, offset, and any stray capacitance effects._
+
+## Image Files
+
+Save the oscilloscope screenshots in the `images/` folder using these names:
+
+```
+images/
+├── scope_3pF.png
+├── scope_5pF.png
+└── scope_10pF.png
+```
