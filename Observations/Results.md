@@ -17,6 +17,7 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 
 - **Capacitance under test:** 3 pF
 - **Measured output:** 
+<img width="881" height="695" alt="WhatsApp Image 2026-11-1" src="https://github.com/user-attachments/assets/d0a87296-add6-4b0b-be85-989ef4d7b638" />
 
 
 ### 5 pF
@@ -24,33 +25,28 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 - **Capacitance under test:** 5 pF
 - **Measured output:** _TODO: V_
 
-![5 pF oscilloscope capture](images/scope_5pF.png)
+<img width="662" height="532" alt="image" src="https://github.com/user-attachments/assets/f4f7b4a9-a2db-4d88-bb44-8bdf249a125a" />
+
 
 ### 10 pF
 
 - **Capacitance under test:** 10 pF
 - **Measured output:** _TODO: V_
 
-![10 pF oscilloscope capture](images/scope_10pF.png)
+<img width="642" height="487" alt="image" src="https://github.com/user-attachments/assets/e0b9c062-fff9-4dde-ae71-23b5193dff08" />
+
 
 ## Summary
 
 | Capacitance (pF) | Measured output (V) | Notes |
 |------------------|---------------------|-------|
-| 3 | _TODO_ | |
-| 5 | _TODO_ | |
-| 10 | _TODO_ | |
+| 3 | 1.23 | |
+| 5 | 1.42 | |
+| 10 | 2.46 | |
 
-## Observations
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/24ae4fa2-10dc-4fd9-8704-bc81983b9020" />
 
-- The output level increases with the capacitance under test.
-- _TODO: comment on linearity, noise, offset, and any stray capacitance effects._
 
-## Image Files
-
-Save the oscilloscope screenshots in the `images/` folder using these names:
-
-```
 images/
 ├── scope_3pF.png
 ├── scope_5pF.png
