@@ -19,14 +19,13 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 ### 3 pF
 
 - **Capacitance under test:** 3 pF
-- **Measured output:** 
+-
 <img width="881" height="695" alt="WhatsApp Image 2026-11-1" src="https://github.com/user-attachments/assets/d0a87296-add6-4b0b-be85-989ef4d7b638" />
 
 
 ### 5 pF
 
 - **Capacitance under test:** 5 pF
-- **Measured output:** _TODO: V_
 
 <img width="662" height="532" alt="image" src="https://github.com/user-attachments/assets/f4f7b4a9-a2db-4d88-bb44-8bdf249a125a" />
 
@@ -34,7 +33,6 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 ### 10 pF
 
 - **Capacitance under test:** 10 pF
-- **Measured output:** _TODO: V_
 
 <img width="642" height="487" alt="image" src="https://github.com/user-attachments/assets/e0b9c062-fff9-4dde-ae71-23b5193dff08" />
 
