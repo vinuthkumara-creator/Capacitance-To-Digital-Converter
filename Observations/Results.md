@@ -19,7 +19,7 @@ This section shows oscilloscope captures of the circuit measuring known capacito
 ### 3 pF
 
 - **Capacitance under test:** 3 pF
--
+
 <img width="881" height="695" alt="WhatsApp Image 2026-11-1" src="https://github.com/user-attachments/assets/d0a87296-add6-4b0b-be85-989ef4d7b638" />
 
 
